@@ -202,17 +202,6 @@ export function AuthForm() {
           </Tabs>
         </Card>
 
-        {/* Demo Account Information */}
-        <div className="mt-8 w-full rounded-xl bg-slate-100/80 p-4 border border-slate-200/60 text-center dark:bg-slate-900/50 dark:border-slate-800 backdrop-blur-sm">
-          <p className="text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">
-            Demo Account
-          </p>
-          <div className="flex flex-col text-sm text-slate-500 dark:text-slate-400 space-y-1">
-            <span>Email: <span className="font-medium text-emerald-600 dark:text-emerald-400">kent.hinayon@urios.edu.ph</span></span>
-            <span>Password: <span className="font-medium text-emerald-600 dark:text-emerald-400">qwerty12345678</span></span>
-          </div>
-        </div>
-
       </div>
     </div>
   );
